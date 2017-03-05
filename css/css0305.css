@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+html {
+  font-size: 62.5%; 
+    
+}
+  
+body {
+
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: darkgray;
+  margin:0;
+
+    
+}
+
+.main-image{
+    background-image: url("../images/img_trvel.jpg");
+    height:500px;
+    width:100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1{
+    color:white;
+    font-size: 3.3rem;
+    text-align: center;
+    background-color:darkgray;
+    margin: auto;
+    width: 200px;
+}
+
+section{
+    padding:30px 0;
+}
+
+.container{
+    background-color:darkgray;
+    max-width:1000px;
+    padding:20px;
+    margin:0 auto;
+}
+
+
+
+h2{
+    color:green;
+    font-size: 2.0rem
+
+}
+
+.box p{
+    color: gray;
+    padding: 0px 10px 10px 10px;
+}
+
+.box{
+    background-color: lavenderblush;
+    width:30%;
+    margin: 10px 10px 10px 10px;
+    border-radius: 4px;
+    text-align: center;
+    float:left;
+}
+
+
+
+footer p{
+    color:white;
+    margin:auto;
+    width:200px;
+    padding-top:10px;
+    margin-bottom:10px;
+    text-align: center;
+}
+
+.btn{
+    color:white;
+    background-color:orange;
+    width:200px;
+    border-radius: 4px;
+    margin:auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+footer{
+    background-color:darkgray;
+}
+
+/*スマホ用*/
+@media(max-width:768px){
+    .main-image{
+    background-image: url("../images/img_trvel.jpg");
+    height:250px;
+    width:100%;
+    }
+
+    .btn{
+    width: 90%;
+    }
+    
+    .box{
+    background-color: lavenderblush;
+    width:90%;
+    margin: 10px 10px 10px 10px;
+    border-radius: 4px;
+    text-align: center;
+    }
+    
+}
